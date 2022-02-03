@@ -31,7 +31,7 @@ public class PruebaMetodos {
 		
 		
 		
-		
+		//nota: pon todo en argumentos para observar este metodo
 		Metodos.imprimirNombre("Pancho");//puede ser invocado sin un objeto linea 10{ Metodos metodoPrueba = new Metodos ();}
 		//la razon es que pertenece a la clase
 		
