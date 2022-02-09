@@ -38,7 +38,7 @@ public class Metodos {
 		int c = arg1;
 		double d = arg2;
 		return c * d;
-		//podria escribir solo return arg1 + arg2
+		//podria escribir solo return arg1 * arg2
 	}
 	
 	

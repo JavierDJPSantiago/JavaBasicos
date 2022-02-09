@@ -1,5 +1,5 @@
 /*
-//los nombres de las clases van en mayus al inicioy minusculas sin espacio
+//los nombres de las clases van en mayus al inicio y minusculas sin espacio
 public class ConversionDatos {
 
 		public static void main (String[] args) {
@@ -7,7 +7,7 @@ public class ConversionDatos {
 		short numeroShort = numeroByte;
 		int numeroLong = numeroShort; 
 		
-		int otroInt = (int) numeroLong;//convertimos lon en int
+		int otroInt = (int) numeroLong;//convertimos long en int
 		
 		short otroShort = (short) OtroInt; //convirtiendo a short//lo convierte, lo pone en un contenedor mas grande
 		

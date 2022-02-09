@@ -25,7 +25,7 @@ public class EstructuraDeControlf {
 		//Usada para devolver mensajes para devolver informacion
 		System.out.println("Introduce tu edad");//manda informacion hacia afuera/ info de salida
 		
-		//Scanner: in es de entrada, informacion que se añadida
+		//Scanner: in es de entrada, informacion que es añadida
 		//necesita importar Scanner: import java.util.Scanner;
 		Scanner sc = new Scanner(System.in);
 	

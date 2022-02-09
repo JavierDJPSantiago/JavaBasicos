@@ -17,7 +17,7 @@ public class Ciclos {
 		
 		while(control < 10) {
 			System.out.println("control = " + control);
-			control++;//de no ponerlo se ciclara al infinito porque 0 es como no tener valor
+			control++;//de no ponerlo se ciclara al infinito porque 0 siempre entra en la condición
 		}
 		*/
 		//usa f6 para que accione el codigo
@@ -29,7 +29,7 @@ public class Ciclos {
 		
 		/*
 		///////////////do while///////////////////
-		//util para cuando necesitamos que se ejcute una vez antes de hacer la operacion
+		//util para cuando necesitamos que se ejecute una vez antes de hacer la operacion
 		
 		int control = 3;
 		
@@ -83,7 +83,7 @@ public class Ciclos {
 			   	break;
 			}
 			
-			//System.out.println("Control" + i);//esto no se ejecuta a pesar de estar fuera del fi por el break
+			//System.out.println("Control" + i);//esto no se ejecuta a pesar de estar fuera del if por el break
 			
 		}
 		*/
@@ -96,7 +96,7 @@ public class Ciclos {
 			   
 			   
 			   	continue;//permite saltarnos una ejecucion del ciclo
-			   	//salta uno y continnua el ciclo por eso muestra: 1,3,5,7,9
+			   	//salta uno y continua el ciclo por eso muestra: 1,3,5,7,9
 			   	//en otras palabras no se ejecuta lo que esta despues de continue
 			}
 			

@@ -30,8 +30,8 @@ public class EstructuraDeControlSwitch {
 		Scanner sc = new Scanner(System.in);
 		String dia = sc.nextLine();
 		
-		//nectLines: recuperar string
-		//toLowerCase: convertir a 
+		//nextLines: recuperar string
+		//toLowerCase: convertir el string en minusculas
 		
 		
 		switch(dia.toLowerCase()) {

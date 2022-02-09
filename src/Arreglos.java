@@ -4,10 +4,10 @@ public class Arreglos {
 		
 		//Arreglos
 		//Solo un tipo de (string o int etc)
-		//Especofocar el tamaño que va a contener
+		//Especificar el tamaño que va a contener
 		
 		///////1 manera
-		int numeros[];//creamos la varibale//new crea una intacia o copia de un arreglo o de un objeto 
+		int numeros[];//creamos la varibale//new crea una instacia o copia de un arreglo o de un objeto 
 		numeros = new int[4];//creando el arreglo; pido que tenga 4 posiciones : no pueden cambiar
 		
 		
@@ -45,7 +45,7 @@ public class Arreglos {
 		
 		//mostrar el arreglo y una posicion de su contenido
 		System.out.println(numeros[0]);//me muestra 10 que esta en la posicion 0
-		System.out.println(numeros);//no nos manda todos los elementos; nos manda un numero que indica la direecion donde esta el arreglo en tu memoria
+		System.out.println(numeros);//no nos manda todos los elementos; nos manda un numero que indica la direccion donde esta el arreglo en tu memoria
 		
 		
 		//para ver todos los elementos del arreglo se usa un for

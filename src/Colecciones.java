@@ -15,7 +15,7 @@ public class Colecciones {
 	public static void main(String [] args){
 		
 		//Las colecciones nos sirven para almacenar un conjunto de objetos
-		//La diferencia de las colecciones y objetos es que las colecciones son dinamicas:
+		//La diferencia de las colecciones y arreglos es que las colecciones son dinamicas:
 		//pueden cambiar el numero de objetos agregados (arreglos no puede aumentar posiciones)
 		//https://www.adictosaltrabajo.com/2015/09/25/introduccion-a-colecciones-en-java/
 		
@@ -55,7 +55,7 @@ public class Colecciones {
 		
 		//Sintaxis:
 		//for(tipoDeDatoElmento varibale: elementoARecorrer
-		//String es una variable en el for: furtas es la coleecion a recorrer
+		//String es una variable en el for: frutas es la coleccion a recorrer
 		for(String fruta : frutas) {
 			System.out.println(fruta);//muestra los elementos de la coleccion pero en desorden
 		}
@@ -70,7 +70,7 @@ public class Colecciones {
 		
 		/*
 		////////TreeSet
-		//Estai mplementacion ordena los elementos en funcion de sus valores
+		//Esta implementacion ordena los elementos en funcion de sus valores
 		//ejemplo: mayusculas primero-luego minusculas, orden alfabetico, menor a mayor numero
 		//es la implementación mas lenta
 		
@@ -148,7 +148,7 @@ public class Colecciones {
 		pokemones.add("Flygon");
 		
 		pokemones.add(2,"Pikachu");//pidiendo que este nuevo elemento ocupe la posicion dos
-		//el elementno que esta en la 2 "Psyduck", fue desplazado a la posicion 3
+		//el elemento que esta en la 2 "Psyduck", fue desplazado a la posicion 3
 
 		//remove remueve el elemento de la posicion especificada
 		pokemones.remove(5);//debe estar charizard, recuerda que antes agregamos pikachu
@@ -225,7 +225,7 @@ public class Colecciones {
 		//No puede contener claves duplicadas
 		//solo puede tener un valor asociado
 		//estrcutura: clave: valor; ambos pueden ser o strings o numeros pero debes especificarle en las<>
-		//tiene tres implementaciones : HashMap, TreeMap
+		//tiene tres implementaciones : HashMap, TreeMap, LinkedHashMap
 		
 		
 		
@@ -233,7 +233,7 @@ public class Colecciones {
 		///////////HashMap
 		//similar a HashSet
 		//Tiene mejor rendimiento pero no garantiza un orden a la hora de hacer interacciones
-		//no calves reptidas//puedes meter llaves y valores duplicados pero solo te mostrara el ultimo valor añadido
+		//no claves reptidas//puedes meter llaves y valores duplicados pero solo te mostrara el ultimo valor añadido
 
 		
 		Map<Integer, String> usuarios = new HashMap <Integer, String>();
